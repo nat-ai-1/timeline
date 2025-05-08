@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(255, 203, 91);
+}
+
+div{
+    margin: 50px;
+}
+
+p{
+    font-size: 25px;
+}
+
+a{
+    font-size: 20px;
+}
+
+legend{
+    font-size: 25px;
+}
+
+.snowflake {
+    position: absolute;
+    top: -10px;
+    color: white;
+    font-size: 12px;
+    user-select: none;
+    pointer-events: none;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
