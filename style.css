@@ -33,3 +33,8 @@ legend{
         transform: translateY(100vh);
     }
 }
+
+#center{
+    text-align: center;
+}
+
