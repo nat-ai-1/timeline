@@ -23,7 +23,7 @@ legend{
     height: auto;
 }
 
-.snowflake {
+/* .snowflake {
     position: absolute;
     top: -10px;
     color: white;
@@ -32,7 +32,7 @@ legend{
     pointer-events: none;
     animation: fall linear infinite;
 }
-
+ */
 @keyframes fall {
     to {
         transform: translateY(100vh);
