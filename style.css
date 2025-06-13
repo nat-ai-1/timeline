@@ -81,4 +81,21 @@ legend{
   box-shadow: 0 10px 20px rgba(241, 193, 21, 0.778);
 }
 
+.fancy-border {
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background: linear-gradient(#121212, #121212) padding-box,
+              linear-gradient(45deg, cyan, magenta) border-box;
+  padding: 20px;
+  color: white;
+  margin: 20px 0;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ff00cc, #2121ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 2em;
+}
 
