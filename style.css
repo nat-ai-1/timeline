@@ -43,3 +43,42 @@ legend{
     text-align: center;
 }
 
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  color: rgb(25, 142, 231);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.glow-text {
+  color: rgb(205, 248, 35);
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+  font-size: 1.5em;
+  font-weight: bold;
+  animation: flicker 1.5s infinite alternate;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+
+.news-card {
+  background: #ad2df2;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.news-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(241, 193, 21, 0.778);
+}
+
+
