@@ -98,3 +98,8 @@ legend{
 #koji{
   margin: 25px;
 }
+
+#TTY {
+  height: 250px; width: auto;
+}
+
